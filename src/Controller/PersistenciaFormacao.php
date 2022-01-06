@@ -18,7 +18,7 @@ class PersistenciaFormacao implements RequestHandlerInterface
     /**
      * @var EntityManagerInterface
      */
-    private $entityManager;
+    private EntityManagerInterface $entityManager;
 
     public function __construct(EntityManagerInterface $entityManager)
     {
